@@ -3,7 +3,11 @@ const experiences = [
     year: "2020-2025",
     company: "University of Waterloo",
     title: "Honors Mechatronics Engineering BASc.",
-    info: [],
+    info: [
+      "Working towards a bachelor of applied science in Mechatronics Engineering",
+      "Cumulative 3.975/4.0 GPA",
+      "Relevant Courses: Data Structures and Algorithms, Real Time Systems, C++ Development",
+    ],
   },
   {
     year: "2021",
@@ -21,7 +25,11 @@ const experiences = [
     year: "2022-Present",
     company: "H2 Analytics",
     title: "Fullstack Developer",
-    info: [],
+    info: [
+      "Created a VueJS and Python Flask web app that simplifies large-scale training operations",
+      "Designed a user portal with VueJS, HTML, CSS and deployed it using Docker",
+      "Developed a Python-Flask backend with a MongoDB database, leveraging PyMongo",
+    ],
   },
 ];
 export default experiences;

@@ -69,6 +69,7 @@ const Skills = () => {
                     <div className="experience-year">{experience.year}</div>
                     <div className="more-button">
                       <FontAwesomeIcon
+                        class="icon"
                         icon={faArrowUpRightFromSquare}
                         color="#000000"
                         onClick={() => {

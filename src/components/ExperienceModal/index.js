@@ -23,7 +23,7 @@ const ExperienceModal = (props) => {
         </div>
         <div className="modal-body">
           {props.experience.info.map((info, index) => {
-            return <div>-{info}</div>;
+            return <div key={index}>-{info}</div>;
           })}
         </div>
         <div className="modal-footer">
