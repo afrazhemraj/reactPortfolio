@@ -15,6 +15,7 @@ import sass from "../../assets/images/sass.png";
 import ts from "../../assets/images/typescript.png";
 import vue from "../../assets/images/vue.png";
 import vuetify from "../../assets/images/vuetify.png";
+import sw from "../../assets/images/sw.png";
 
 const icons = [
   {
@@ -47,7 +48,7 @@ const icons = [
   },
   {
     name: "JavaScript",
-    image: html,
+    image: js,
   },
   {
     name: "Jest",
@@ -84,6 +85,10 @@ const icons = [
   {
     name: "Vuetify",
     image: vuetify,
+  },
+  {
+    name: "SolidWorks",
+    image: sw,
   },
 ];
 export default icons;
