@@ -23,12 +23,16 @@
       flex-direction: column;
       align-items: center;
       .project-title{
-        height:30%;
+        height:40%;
         width:100%;
         display: flex;
         justify-content: center;
-        background-color: #FF6C6C;
+        align-items: center;
         border-radius: 10px 10px 0px 0px;
+        img {
+            width: 70%;
+            height:75%;
+          }
         h2{
           top: 15%;
           font-size: 36px;
@@ -53,6 +57,7 @@
         .technologies{
           display:flex;
           justify-content: center;
+
           width: 90%;
           .technology{
 

@@ -2,7 +2,8 @@ import React from "react";
 import "./index.scss";
 import { useState, useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters";
-import recipEasy from "../../assets/images/chicken.png";
+import recipEasy from "../../assets/images/recipeasy.png";
+import projects from "./projects";
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -45,64 +46,41 @@ const Projects = () => {
           />
         </h1>
         <div className="projects">
-          <div
-            className="project"
-            onClick={() => {
-              handleClick("https://www.google.com/");
-            }}
-          >
-            <div className="project-title">
-              <img src={recipEasy} alt="RecipEasy"></img>
-            </div>
-            <div className="project-body">
-              <span>
-                Enter available ingredients, appliances, and the amount of time
-                you have to cook. RecipEasy will search over 10 000 recipes for
-                ones that can be cooked within user parameters. Less thinking,
-                more eating!
-              </span>
-              <div className="technologies">
-                <div
-                  className="technology"
-                  style={{
-                    border: "2px solid gold",
-                    color: "gold",
-                  }}
-                >
-                  JAVASCRIPT
+          {projects.map((project, index) => {
+            return (
+              <div
+                style={{ backgroundColor: `${project.color}` }}
+                key={index}
+                className="project"
+                onClick={() => {
+                  handleClick(project.link);
+                }}
+              >
+                <div className="project-title">
+                  <img src={project.image} alt="Project"></img>
                 </div>
-                <div
-                  className="technology"
-                  style={{
-                    border: "2px solid orange",
-                    color: "orange",
-                  }}
-                >
-                  HTML
-                </div>
-                <div
-                  className="technology"
-                  style={{
-                    border: "2px solid darkcyan",
-                    color: "darkcyan",
-                  }}
-                >
-                  REACT
-                </div>
-                <div
-                  className="technology"
-                  style={{
-                    "background-color": "#5ff56e40",
-                    color: "green",
-                  }}
-                >
-                  MONGODB
+                <div className="project-body">
+                  <span>{project.description}</span>
+                  <div className="technologies">
+                    {project.technologies.map((technology, index) => {
+                      return (
+                        <div
+                          key={index}
+                          className="technology"
+                          style={{
+                            backgroundColor: `${technology.color}`,
+                            color: `${technology.textcolor}`,
+                          }}
+                        >
+                          {technology.title}
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="project"></div>
-          <div className="project"></div>
+            );
+          })}
         </div>
       </div>
       <div className="pokeball">
