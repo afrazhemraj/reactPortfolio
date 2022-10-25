@@ -67,10 +67,7 @@ const Home = () => {
               CONTACT ME
             </Link>
           </div>
-          <Spline
-            className="spline"
-            scene="https://prod.spline.design/C8mq0SleGEpmhJBV/scene.splinecode"
-          />
+          <Spline scene="https://prod.spline.design/C8mq0SleGEpmhJBV/scene.splinecode" />
         </div>
       </div>
       <div className="pokeball">
