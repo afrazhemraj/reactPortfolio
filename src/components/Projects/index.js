@@ -2,7 +2,6 @@ import React from "react";
 import "./index.scss";
 import { useState, useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters";
-import recipEasy from "../../assets/images/recipeasy.png";
 import projects from "./projects";
 
 const Projects = () => {
