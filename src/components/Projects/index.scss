@@ -23,44 +23,35 @@
       flex-direction: column;
       align-items: center;
       .project-title{
-        height:40%;
+        max-height: 35%;
+        flex-grow: 1;
         width:100%;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 10px 10px 0px 0px;
         img {
-            width: 70%;
-            height:75%;
+            scale:0.5;
           }
-        h2{
-          top: 15%;
-          font-size: 36px;
-          font-family: "Poppins";
-          color: white;
-          font-weight: 400;
-          position: relative;
-        }
       }
       .project-body{
+        flex-grow: 2;
         display:flex;
         flex-direction: column;
         justify-content: center;
-        height: 100%;
+        align-items: center;
         width:100%;
         border-radius: 0px 0px 10px 10px;
         background-color: whitesmoke;
-        span{
-          margin: 5%;
+        .description{
+          padding: 0% 5%;
           font-size: 16px;
         }
         .technologies{
           display:flex;
           justify-content: center;
-
           width: 90%;
           .technology{
-
             margin:5px;
             padding:5px;
             font-weight: 600;

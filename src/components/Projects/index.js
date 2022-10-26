@@ -60,7 +60,7 @@ const Projects = () => {
                   <img src={project.image} alt="Project"></img>
                 </div>
                 <div className="project-body">
-                  <span>{project.description}</span>
+                  <div className="description">{project.description}</div>
                   <div className="technologies">
                     {project.technologies.map((technology, index) => {
                       return (
