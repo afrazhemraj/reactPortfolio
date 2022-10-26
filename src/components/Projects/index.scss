@@ -14,7 +14,7 @@
     display:flex;
     justify-content: space-between;
     .project{
-      height:50%;
+      height:60%;
       width:25%;
       background-color: #181818;
       border-radius: 10px;
@@ -35,10 +35,11 @@
           }
       }
       .project-body{
+        padding: 5% 0%;
         flex-grow: 2;
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         width:100%;
         border-radius: 0px 0px 10px 10px;
@@ -48,6 +49,7 @@
           font-size: 16px;
         }
         .technologies{
+          margin-top: 2%;
           display:flex;
           justify-content: center;
           width: 90%;
