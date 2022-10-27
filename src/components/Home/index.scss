@@ -38,7 +38,7 @@
         font-size: 18px;
         position: absolute;
         margin-top: -40px;
-        left: 15px;
+        left: 10%;
         opacity:0.6;
       }
       &::after {
@@ -49,7 +49,7 @@
         font-size: 18px;
         position: absolute;
         margin-top: 350px;
-        left: 15px;
+        left: 10%;
         opacity: 0.6;
         animation: fadeIn 1s 1.7s backwards;
       }
@@ -220,3 +220,46 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+
+  .tags,
+  .home-page .title:before,
+  .home-page .title:after {
+    display: none;
+  }
+  .home-page .spline{
+    display: none;
+  }
+  .home-page .title{
+    margin:0px;
+    display: flex;
+    position: initial;
+    width: 100%;
+    transform: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .home-page .title h1{
+    margin: 0px 20px;
+    font-size: 50px;
+  }
+
+  .home-page .title h2 {
+    font-size: 28px;
+    margin: 0px 20px;
+  }
+
+  .home-page .title p {
+    position: initial;
+    font-size: 24px;
+    margin: 0px 20px;
+  }
+
+  .home-page .title .flat-button {
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 124px;
+  }
+
+}

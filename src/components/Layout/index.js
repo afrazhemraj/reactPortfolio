@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <div className="App">
+      <div className="top-bar"></div>
       <Sidebar />
       <div className="page">
         <span className="tags top-tags">
