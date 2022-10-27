@@ -70,7 +70,8 @@ const Home = () => {
           <div className="spline">
             <Spline
               className="room"
-              scene="https://prod.spline.design/C8mq0SleGEpmhJBV/scene.splinecode"
+              //scene="https://prod.spline.design/C8mq0SleGEpmhJBV/scene.splinecode"
+              scene="https://prod.spline.design/9nECuAlVXZmaY53P/scene.splinecode"
             />
           </div>
         </div>

@@ -12,14 +12,14 @@
   color: white;
   position: relative;
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 
   .spline{
+    margin-left: 10%;
     display: flex;
     align-items: center;
     height: 100%;
-    width:55%;
     .room{
       width:100% !important;
     }
