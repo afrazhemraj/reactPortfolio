@@ -216,11 +216,34 @@
 }
 
  @media screen and (max-width: 1200px) {
+  .page{
+    overflow: auto;
+  }
   .top-bar{
-    z-index: 0;
+    z-index: 98;
     position: absolute;
     background-color: #181818;
     width:100%;
     height: 70px;
   }
- }
+
+    .container {
+      position: initial;
+      height: auto;
+      min-height: auto;
+
+      &.contact-page,
+      &.about-page {
+        .text-zone {
+          margin-top: 100px;
+          position: initial;
+          transform: none;
+          width: 100%;
+          display: block;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+      }
+    }
+    }
+

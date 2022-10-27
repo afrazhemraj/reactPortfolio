@@ -39,9 +39,7 @@ const About = () => {
             basketball, and hanging out with friends.
           </p>
         </div>
-        <div className="portrait">
-          <img src={Afraz} alt="AH" />
-        </div>
+        <img className="portrait" src={Afraz} alt="AH" />
       </div>
       <div className="pokeball">
         <div className="pokeball__button"></div>

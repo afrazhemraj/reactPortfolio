@@ -1,17 +1,12 @@
   .about-page{
-  .portrait {
-    position: absolute;
-    scale: 0.55;
-    left: 45%;
-    top: 20%;
-    transform: translateY(-50%);
-    max-height: 90%;
-
+    display: flex;
+    justify-content: flex-end;
     img {
-      border-radius: 1000px;
+      scale: 0.70;
+      border-radius: 50%;
       border: 10px solid lightblue;
     }
-  }
+
 p {
   span {
     color: #47cbff;
@@ -58,3 +53,35 @@ p {
     }
   }
 }}
+
+@media screen and (max-width: 1200px) {
+
+  .about-page{
+    height:100%;
+    margin-top: 140px;
+    display:flex;
+    flex-direction: column-reverse;
+
+    .text-zone{
+     margin: 0px !important;
+     flex-grow: 2;
+    }
+
+  }
+
+  .text-zone h1{
+    font-size: 50px
+  }
+  .text-zone p {
+    font-size: 16px;
+    text-align: center;
+  }
+  p:before, p:after{
+    display: none;
+  }
+      .portrait {
+        border-radius: 50%;
+        scale: 0.4;
+        border: 10px solid lightblue;
+      }
+}
