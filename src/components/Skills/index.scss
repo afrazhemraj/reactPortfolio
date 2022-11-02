@@ -129,7 +129,7 @@
   .skills-page .skills-experiences .skills {
     justify-content: center;
     max-width: 90%;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 
   .skills-page .skills-experiences .skills .skill-container .skill {
@@ -147,6 +147,7 @@
   .skills-page .skills-experiences .experiences {
     justify-content: center;
     max-width: 90%;
+    overflow-y: hidden;
   }
 
 }

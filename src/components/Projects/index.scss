@@ -73,3 +73,33 @@
     margin-bottom: 70px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .projects-page {
+      display: flex;
+      align-items: center;
+      margin-top: 150px;
+      overflow-x: hidden;
+      margin-bottom: 40px;
+    }
+
+    .projects-page h1 {
+      font-size: 35px;
+    }
+
+    .projects-page .projects {
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .projects-page .projects .project{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .projects-page .projects .project .project-title img {
+      max-width: 400px;
+      max-height: 200px;
+    }
+}
