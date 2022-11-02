@@ -191,11 +191,9 @@ ul {
             width: auto;
           }
 
-          a.active:after {
+          a.active svg{
             opacity: 1;
-          }
-          a.active.svg{
-            opacity: 0;
+            color: lightblue;
           }
         }
 

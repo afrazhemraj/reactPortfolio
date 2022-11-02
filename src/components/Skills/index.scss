@@ -108,5 +108,45 @@
       top: 5%;
       position: relative;
       margin-bottom: 70px;
+    }
+}
 
-}}
+@media screen and (max-width: 1200px) {
+  .skills-page {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    overflow-x: hidden;
+  }
+  .skills-page h1{
+    font-size: 35px;
+  }
+  .skills-page .skills-experiences{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skills-page .skills-experiences .skills {
+    justify-content: center;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .skills-page .skills-experiences .skills .skill-container .skill {
+      background-color: #e3e3e3;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+
+      img {
+          max-width: 40px;
+          max-height: 35px;
+        }
+  }
+
+  .skills-page .skills-experiences .experiences {
+    justify-content: center;
+    max-width: 90%;
+  }
+
+}

@@ -55,18 +55,9 @@ p {
 }}
 
 @media screen and (max-width: 1200px) {
-
-  .about-page{
-    height:100%;
-    margin-top: 140px;
-    display:flex;
-    flex-direction: column-reverse;
-
-    .text-zone{
-     margin: 0px !important;
-     flex-grow: 2;
-    }
-
+  .text-zone{
+    margin: 0px !important;
+    flex-grow: 2;
   }
 
   .text-zone h1{
@@ -79,9 +70,7 @@ p {
   p:before, p:after{
     display: none;
   }
-      .portrait {
-        border-radius: 50%;
-        scale: 0.4;
-        border: 10px solid lightblue;
-      }
+  .portrait {
+    display: none;
+  }
 }
