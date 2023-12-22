@@ -1,7 +1,7 @@
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import { useState, useEffect } from "react";
-import Afraz from "../../assets/images/afraz2.jpg";
+import Afraz from "../../assets/images/afraznew.JPG";
 
 const About = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -24,7 +24,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a third-year <span>Mechatronics Engineering</span>{" "}
+            I am a fourth-year <span>Mechatronics Engineering</span>{" "}
             undergraduate student at the <span>University of Waterloo</span>.
             Through pursuing knowledge in software, electrical and mechanical
             systems, I am seeking opportunities to apply engineering concepts to
@@ -39,7 +39,9 @@ const About = () => {
             basketball, and hanging out with friends.
           </p>
         </div>
-        <img className="portrait" src={Afraz} alt="AH" />
+        <div className="image-zone">
+          <img className="portrait" src={Afraz} alt="AH" />
+        </div>
       </div>
       <div className="pokeball">
         <div className="pokeball__button"></div>

@@ -1,12 +1,19 @@
   .about-page{
     display: flex;
     justify-content: flex-end;
+    .text-zone{
+      width: 40%;
+    }
+    .image-zone{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
     img {
-      scale: 0.70;
-      border-radius: 50%;
+      scale: 0.30;
       border: 10px solid lightblue;
     }
-
+  }
 p {
   span {
     color: #47cbff;

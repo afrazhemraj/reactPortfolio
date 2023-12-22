@@ -47,7 +47,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am actively looking for <span>Spring/Summer 2023 </span>
+            I am actively looking for <span>Spring/Summer 2024 </span>
             internships in <span>software development</span>. If you like what
             you see or have any questions, feel free to reach out using the form
             below!
