@@ -5,30 +5,16 @@ const experiences = [
     title: "Honors Mechatronics Engineering BASc.",
     info: [
       "Working towards a bachelor of applied science in Mechatronics Engineering",
-      "Cumulative 3.975/4.0 GPA",
+      "Cumulative 4.0 GPA",
       "Relevant Courses: Data Structures and Algorithms, Real Time Systems, C++ Development",
     ],
   },
   {
-    year: "Apr 2021 - Aug 2021",
-    company: "University of Waterloo",
-    title: "Nanotechnology Research Assistant",
+    year: "Jan 2024 - Present",
+    company: "RBC",
+    title: "Quant Software Engineer Intern",
     info: [
-      "Studied pollen grains as a biocompatible nanoparticle",
-      "Used CAD software to create experimental designs for Atmospheric Water Harvesting",
-      "Published author in Angewandte Chemie Journal",
-    ],
-    footer:
-      "Im a published author! Check the paper out <a href='https://pubmed.ncbi.nlm.nih.gov/34936181/'>here!</a>",
-  },
-  {
-    year: "Jan 2022-Jan 2023",
-    company: "H2 Analytics",
-    title: "Software Engineer Intern",
-    info: [
-      "Created a VueJS and Python Flask web app that simplifies large-scale training operations",
-      "Designed a user portal with VueJS, HTML, CSS and deployed it using Docker",
-      "Developed a Python-Flask backend with a MongoDB database, leveraging PyMongo",
+      "Incoming Quant Developer Intern on the Global Asset Management Team @ RBC!",
     ],
   },
   {
@@ -43,12 +29,26 @@ const experiences = [
     ],
   },
   {
-    year: "Jan 2024 - Present",
-    company: "RBC",
-    title: "Quant Software Engineer Intern",
+    year: "Jan 2022-Jan 2023",
+    company: "H2 Analytics",
+    title: "Software Engineer Intern",
     info: [
-      "Incoming Quant Developer Intern on the Global Asset Management Team @ RBC!",
+      "Created a VueJS and Python Flask web app that simplifies large-scale training operations",
+      "Designed a user portal with VueJS, HTML, CSS and deployed it using Docker",
+      "Developed a Python-Flask backend with a MongoDB database, leveraging PyMongo",
     ],
+  },
+  {
+    year: "Apr 2021 - Aug 2021",
+    company: "University of Waterloo",
+    title: "Nanotechnology Research Assistant",
+    info: [
+      "Studied pollen grains as a biocompatible nanoparticle",
+      "Used CAD software to create experimental designs for Atmospheric Water Harvesting",
+      "Published author in Angewandte Chemie Journal",
+    ],
+    footer:
+      "Im a published author! Check the paper out <a href='https://pubmed.ncbi.nlm.nih.gov/34936181/'>here!</a>",
   },
 ];
 export default experiences;
